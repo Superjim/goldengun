@@ -9,6 +9,9 @@
 "#base"	"default_unlocks_axis.theater"
 "#base"	"default_unlocks_commonwealth.theater"
 "#base"	"default_unlocks_weapons.theater"
+"#base" "goldengun_weapon_american.theater"
+"#base" "goldengun_weapon_german.theater"
+"#base" "goldengun_weapon_commonwealth.theater"
 "#base"	"doiRevival_coop_classes.theater"
 
 
@@ -1739,7 +1742,6 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_sw1917"
-				"weapon_upgrade"		"magazine_clips_sw1917"
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"american_light_kit"
@@ -1750,23 +1752,20 @@
 				"weapon"				"weapon_smoke"			
 				"weapon"				"weapon_tnt"
 				"weapon_upgrade"		"magazine_clips_sw1917"
-				"weapon"				"weapon_webley"
-				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_sw1917"				"2"	
-					"weapon_tnt"				"1"
+					"weapon_tnt"				"2"
 					"weapon_smoke"				"2"
 					"weapon_webley"				"4"
 				}
 				"weapon_upgrade"
 				{
 					"magazine_stripper_clips"	"1"
-					"magazine_clips_sw1917" "1"
-					"magazine_speedloader_webley" "1"
+					"magazine_clips_sw1917" "5"
 				}
 				"gear"
 				{
@@ -1805,7 +1804,6 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_webley"
-				"weapon_upgrade"		"magazine_speedloader_webley"
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"commonwealth_light_kit"
@@ -1816,23 +1814,20 @@
 				"weapon"				"weapon_smoke"			
 				"weapon"				"weapon_tnt"
 				"weapon_upgrade"		"magazine_clips_sw1917"
-				"weapon"				"weapon_webley"
-				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_sw1917"				"2"	
-					"weapon_tnt"				"1"
+					"weapon_tnt"				"2"
 					"weapon_smoke"				"2"
 					"weapon_webley"				"4"
 				}
 				"weapon_upgrade"
 				{
 					"magazine_stripper_clips"	"1"
-					"magazine_clips_sw1917" "1"
-					"magazine_speedloader_webley" "1"
+					"magazine_clips_sw1917" "5"
 				}
 				"gear"
 				{
@@ -1872,7 +1867,6 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_sw1917"
-				"weapon_upgrade"		"magazine_clips_sw1917"
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"german_light_kit"
@@ -1883,23 +1877,20 @@
 				"weapon"				"weapon_smoke"			
 				"weapon"				"weapon_tnt"
 				"weapon_upgrade"		"magazine_clips_sw1917"
-				"weapon"				"weapon_webley"
-				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_sw1917"				"2"	
-					"weapon_tnt"				"1"
+					"weapon_tnt"				"2"
 					"weapon_smoke"				"2"
 					"weapon_webley"				"4"
 				}
 				"weapon_upgrade"
 				{
 					"magazine_stripper_clips"	"1"
-					"magazine_clips_sw1917" "1"
-					"magazine_speedloader_webley" "1"
+					"magazine_clips_sw1917" "5"
 				}
 				"gear"
 				{
