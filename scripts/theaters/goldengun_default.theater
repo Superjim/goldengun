@@ -1,8 +1,8 @@
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
-"#base" "default_weapon_american.theater"
-"#base" "default_weapon_german.theater"
-"#base" "default_weapon_commonwealth.theater"
+"#base" "goldengun_weapon_american.theater"
+"#base" "goldengun_weapon_german.theater"
+"#base" "goldengun_weapon_commonwealth.theater"
 "#base" "default_weapon_upgrades.theater"
 "#base"	"default_firesupport.theater"
 "#base"	"default_unlocks_americans.theater"
@@ -155,9 +155,9 @@
 	{		
 		"template_american_officer"
 		{
-			"print_name"				"#class_american_officer"
-			"print_attribute"			"#class_officer_attribute"
-			"print_description"			"#class_officer_description"
+			"print_name"				"GOLDENROD"
+			"print_attribute"			"The man with the golden rod"
+			"print_description"			"One shot. One kill. One fabulous gun - its not compensating if its gold!"
 			"response_rules_key"		"american01"
 			"squad_leader"				"1"
 			"icon"						"officer_americans"
@@ -225,9 +225,9 @@
 			
 		"template_british_officer"
 		{
-			"print_name"				"#class_british_officer"
-			"print_attribute"			"#class_officer_attribute"
-			"print_description"			"#class_officer_description"
+			"print_name"				"GOLDENROD"
+			"print_attribute"			"The man with the golden rod"
+			"print_description"			"One shot. One kill. One fabulous gun - its not compensating if its gold!"
 			"response_rules_key"		"english"
 			"squad_leader"				"1"
 			"icon"						"officer_commonwealth"
@@ -294,9 +294,9 @@
 			
 		"template_german_officer"
 		{
-			"print_name"			"#class_german_officer"
-			"print_attribute"		"#class_officer_attribute"
-			"print_description"		"#class_officer_description"
+			"print_name"				"GOLDENROD"
+			"print_attribute"			"The man with the golden rod"
+			"print_description"			"One shot. One kill. One fabulous gun - its not compensating if its gold!"
 			"response_rules_key"	"german01"
 			"squad_leader"			"1"
 			"icon"					"officer_germans"
@@ -856,9 +856,9 @@
 		
 		"template_american_assault"
 		{
-			"print_name"				"#class_american_assault"
-			"print_attribute"			"#class_assault_attribute"
-			"print_description"			"#class_assault_description"
+			"print_name"				"SLIPPERY DICK"
+			"print_attribute"			"Greased up and hard to catch"
+			"print_description"			"Coated in enough baby oil to make a PDiddy pool party look like a church picnic"
 			"response_rules_key"		"american01"
 			"icon"						"assault"
 			
@@ -875,45 +875,43 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_garand_bayonet"
-				"weapon"				"weapon_m3greasegun"
-				"weapon_upgrade"		"default_sling"
-				"weapon"				"weapon_mk2"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_smoke"
+				"weapon" "weapon_no77"
 				"gear"					"american_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_m3greasegun"
-				"weapon"				"weapon_thompson_m1a1"
-				"weapon"				"weapon_m1911"
-				"weapon"				"weapon_sw1917"					
-				"weapon"				"weapon_smoke"
-				"weapon"				"weapon_mk2"
-				"weapon_upgrade"		"default_sling"
-				"weapon_upgrade"		"magazine_clips_sw1917"
-				"gear"					"gear_radio"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_luger"
+				"weapon" "weapon_browninghp"
+				"weapon" "weapon_ppk"
+				"weapon" "weapon_smoke"	
+				"weapon"				"weapon_no77"
+
+
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_m3greasegun" 	"4"
-					"weapon_thompson_m1a1" 	"6"
-					"weapon_m1911"			"4"
-					"weapon_sw1917"			"3"					
-					"weapon_smoke"			"2"
-					"weapon_mk2"			"3"
+					"weapon_m1911" "4"
+					"weapon_luger" "4"
+					"weapon_browninghp" "4"
+					"weapon_ppk" "4"
+					"weapon_smoke"			"1"
+					"weapon_no77" "4"
+					"weapon_sw1917"					"25"	
 				}
+
 				"weapon_upgrade"
 				{
-					"default_sling"			"1"
-					"magazine_clips_sw1917"	"1"
+
 				}
 				"gear"
 				{
-					"american_light_kit"	"2"
+					"american_light_kit"	"1"
 					"american_heavy_kit"	"5"
-					"gear_radio"			"3"
 				}
 			}
 
@@ -932,9 +930,9 @@
 		
 		"template_british_assault"
 		{
-			"print_name"				"#class_british_assault"
-			"print_attribute"			"#class_assault_attribute"
-			"print_description"			"#class_assault_description"
+			"print_name"				"SLIPPERY TOM"
+			"print_attribute"			"Greased up and hard to catch"
+			"print_description"			"Coated in enough baby oil to make a PDiddy pool party look like a church picnic"
 			"response_rules_key"		"english"
 			"icon"						"assault"
 			
@@ -951,58 +949,44 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_enfield_bayonet"
-				"weapon"				"weapon_sten_mk2"
-				"weapon_upgrade"		"default_sling"
-				"weapon"				"weapon_no69"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_smoke"
+				"weapon" "weapon_no77"
 				"gear"					"commonwealth_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_ithaca"
-				"weapon"				"weapon_sten_mk2"
-			
-				"?has_owen_access"
-				{
-					"weapon"				"weapon_owen"
-				}
-				"weapon"				"weapon_webley"
-				"weapon"				"weapon_browninghp"
-				"weapon"				"weapon_no79"
-				"weapon"				"weapon_no69"
-				"weapon_upgrade"		"default_sling"
-				"weapon_upgrade"		"magazine_speedloader_webley"
-				"gear"					"gear_radio_commonwealth"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_luger"
+				"weapon" "weapon_browninghp"
+				"weapon" "weapon_ppk"
+				"weapon" "weapon_smoke"	
+				"weapon"				"weapon_no77"
+
+
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_ithaca"		"3"
-					"weapon_sten_mk2"	"4"
-					"weapon_owen"		"5"
-					"weapon_thompson_m1928a1" "6"
-					"weapon_webley"		"2"
-					"weapon_browninghp"	"4"
-					"weapon_no79"		"2"
-					"weapon_no69"		"3"
+					"weapon_m1911" "4"
+					"weapon_luger" "4"
+					"weapon_browninghp" "4"
+					"weapon_ppk" "4"
+					"weapon_smoke"			"1"
+					"weapon_no77" "4"
+					"weapon_sw1917"					"25"	
 				}
 
 				"weapon_upgrade"
 				{
-					"default_sling"					"1"
-					"magazine_speedloader_webley"	"1"
-					"magazine_extended_thompson_50rd" 	"6"
-					"magazine_extended_thompson_30rd" 	"3"
-					"underbarrel_foregrip" 				"2"
-					"barrel_silencer"				"4"
+
 				}
 
 				"gear"
 				{
 					"commonwealth_light_kit"	"1"
 					"commonwealth_heavy_kit"	"5"
-					"gear_radio_commonwealth"	"3"
 				}
 			}
 
@@ -1021,9 +1005,9 @@
 		
 		"template_german_assault"
 		{
-			"print_name"			"#class_german_assault"
-			"print_attribute"		"#class_assault_attribute"
-			"print_description"		"#class_assault_description"
+			"print_name"				"SLIPPERY HANS"
+			"print_attribute"			"Greased up and hard to catch"
+			"print_description"			"Coated in enough baby oil to make a PDiddy pool party look like a church picnic"
 			"response_rules_key"	"german01"
 			"icon"						"assault"
 			
@@ -1040,50 +1024,44 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_k98bayonet"
-				"weapon"				"weapon_mp40"
-				"weapon_upgrade"		"default_sling"
-				"weapon"				"weapon_stielhandgranate"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_smoke"
+				"weapon" "weapon_no77"
 				"gear"					"german_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_mp40"
-				"weapon"				"weapon_c96carbine"
-				"weapon"				"weapon_p38"
-				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_nebelhandgranate"
-				"weapon"				"weapon_stielhandgranate"
-				"weapon"				"weapon_splintering"
-				"weapon_upgrade"		"default_sling"
-				"weapon_upgrade"		"magazine_extended_c96"
-				"gear"					"gear_radio_german"
+				"weapon" "weapon_m1911"
+				"weapon" "weapon_luger"
+				"weapon" "weapon_browninghp"
+				"weapon" "weapon_ppk"
+				"weapon" "weapon_smoke"	
+				"weapon"				"weapon_no77"
+
+
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_mp40"				"4"
-					"weapon_c96carbine"			"5"
-					"weapon_p38"				"3"
-					"weapon_ppk"				"4"
-					"weapon_nebelhandgranate"	"2"
-					"weapon_stielhandgranate"	"3"
-					"weapon_splintering"		"4"
-					"weapon_binoculars_german"	"1"
+					"weapon_m1911" "4"
+					"weapon_luger" "4"
+					"weapon_browninghp" "4"
+					"weapon_ppk" "4"
+					"weapon_smoke"			"1"
+					"weapon_no77" "4"
+					"weapon_sw1917"					"25"	
 				}
-				
+
 				"weapon_upgrade"
 				{
-					"default_sling"				"1"
-					"magazine_extended_c96"		"3"
+
 				}
 
 				"gear"
 				{
 					"german_light_kit"	"1"
 					"german_heavy_kit"	"5"
-					"gear_radio_german"	"3"
 				}
 			}
 
@@ -1741,9 +1719,9 @@
 		
 		"template_american_engineer"
 		{
-			"print_name"				"#class_american_engineer"
-			"print_attribute"			"#class_engineer_attribute"
-			"print_description"			"#class_engineer_description"
+			"print_name"				"BIG BANG"
+			"print_attribute"			"Size DOES matter"
+			"print_description"			"Keep that revolver handy for when the dust clears"
 			"response_rules_key"		"american01"
 			"icon"						"engineer"
 			
@@ -1765,49 +1743,30 @@
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"american_light_kit"
-				//"weapon"				"weapon_springfield"
-				//"weapon_upgrade"		"magazine_stripper_clips"
-				//"weapon_upgrade"		"default_sling"
 			}
 			"allowed_items"
 			{
-				//"weapon"				"weapon_springfield"
-				//"weapon"				"weapon_m3greasegun"
-				//"weapon"				"weapon_m1911"
 				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_smoke"			
-				//"weapon"				"weapon_mk2"
 				"weapon"				"weapon_tnt"
-				//"weapon"				"weapon_bazooka"
-				//"weapon_upgrade"		"default_sling"
 				"weapon_upgrade"		"magazine_clips_sw1917"
-				//"weapon_upgrade"		"magazine_stripper_clips"
-				//"weapon_upgrade"		"barrel_greased_bolt"	
-				//"weapon_upgrade"		"default_bayonet"
-				//"weapon_upgrade"		"magazine_bazooka_wp"
+				"weapon"				"weapon_webley"
+				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_springfield"		"25"
-					"weapon_m3greasegun"		"25"
-					"weapon_m1911"				"3"
 					"weapon_sw1917"				"2"	
-					"weapon"					"2"				
-					"weapon_mk2"				"25"
 					"weapon_tnt"				"1"
 					"weapon_smoke"				"2"
-					"weapon_bazooka"			"25"
+					"weapon_webley"				"4"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"				"1"
 					"magazine_stripper_clips"	"1"
-					"default_bayonet"			"2"
-					"magazine_bazooka_wp"		"1"
-					"barrel_greased_bolt"			"2"
 					"magazine_clips_sw1917" "1"
+					"magazine_speedloader_webley" "1"
 				}
 				"gear"
 				{
@@ -1827,16 +1786,15 @@
 		
 		"template_british_engineer"
 		{
-			"print_name"				"#class_british_engineer"
-			"print_attribute"			"#class_engineer_attribute"
-			"print_description"			"#class_engineer_description"
-			"response_rules_key"		"english"
+			"print_name"				"BIG BANG"
+			"print_attribute"			"Size DOES matter"
+			"print_description"			"Keep that revolver handy for when the dust clears"
 			"icon"						"engineer"
 			
 			"models"
 			{
-				"player"				"models/characters/british/player_british_03.mdl"
-				
+				"player"				"models/characters/american/player_american_06.mdl"
+			
 				"bodygroups"
 				{
 					"kit"					"0"
@@ -1846,53 +1804,34 @@
 			
 			"buy_order"
 			{
-				//"weapon"				"weapon_enfield_bayonet"
-				//"weapon"				"weapon_enfield"
-				//"weapon_upgrade"		"magazine_stripper_clips"
-				//"weapon"				"weapon_browninghp"
-				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_webley"
 				"weapon_upgrade"		"magazine_speedloader_webley"
+				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"commonwealth_light_kit"
 			}
 			"allowed_items"
 			{
-				//"weapon"				"weapon_enfield"
-				//"weapon"				"weapon_sten_mk2"
-				//"weapon"				"weapon_browninghp"
-				//"weapon"				"weapon_no77"
-				//"weapon"				"weapon_no69"
+				"weapon"				"weapon_sw1917"
+				"weapon"				"weapon_smoke"			
 				"weapon"				"weapon_tnt"
+				"weapon_upgrade"		"magazine_clips_sw1917"
 				"weapon"				"weapon_webley"
-				"weapon"				"weapon_smoke"
-				//"weapon"				"weapon_piat"
-				//"weapon_upgrade"		"default_sling"
-				//"weapon_upgrade"		"magazine_stripper_clips"
 				"weapon_upgrade"		"magazine_speedloader_webley"
-				//"weapon_upgrade"		"barrel_greased_bolt"	
-				//"weapon_upgrade"		"default_bayonet"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_enfield"			"25"
-					"weapon_sten_mk2"			"25"
-					"weapon_browninghp"			"25"
-					"weapon_no77"				"25"
-					"weapon_webley"				"4"
-					"weapon_smoke"				"2"
-					"weapon_no69"				"25"
+					"weapon_sw1917"				"2"	
 					"weapon_tnt"				"1"
-					"weapon_piat"				"25"
+					"weapon_smoke"				"2"
+					"weapon_webley"				"4"
 				}
 				"weapon_upgrade"
 				{
-					"default_sling"				"1"
 					"magazine_stripper_clips"	"1"
-					"default_bayonet"			"2"
-					"barrel_greased_bolt"			"2"
+					"magazine_clips_sw1917" "1"
 					"magazine_speedloader_webley" "1"
 				}
 				"gear"
@@ -1913,76 +1852,55 @@
 		
 		"template_german_engineer"
 		{
-			"print_name"				"#class_german_engineer"
-			"print_attribute"			"#class_engineer_attribute"
-			"print_description"			"#class_engineer_description"
-			"response_rules_key"		"german01"
+			"print_name"				"BIG BANG"
+			"print_attribute"			"Size DOES matter"
+			"print_description"			"Keep that revolver handy for when the dust clears"
+			"response_rules_key"		"american01"
 			"icon"						"engineer"
 			
 			"models"
 			{
-				"player"				"models/characters/german/player_german_05.mdl"
+				"player"				"models/characters/american/player_american_06.mdl"
 			
 				"bodygroups"
 				{
 					"kit"					"0"
 					"backpack"				"0"
-				}
+				}				
 			}
 			
 			"buy_order"
 			{
-				//"weapon"				"weapon_tnt"
-				//"weapon"				"weapon_k98"
-				//"weapon_upgrade"		"magazine_stripper_clips"
-				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_sprengbuchse"
+				"weapon"				"weapon_sw1917"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
-				"gear"					"german_heavy_kit"
+				"gear"					"german_light_kit"
 			}
 			"allowed_items"
 			{
-				//"weapon"				"weapon_k98"
-				//"weapon"				"weapon_mp40"
-				"weapon"				"weapon_p38"
-				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_smoke"
-				//"weapon"				"weapon_panzerfaust"
-				"weapon"				"weapon_sprengbuchse"
-				//"weapon"         		"weapon_panzerschreck"
-				//"weapon"				"weapon_flamethrower_eintoss46_german"						
-				//"weapon_upgrade"		"default_sling"
-				//"weapon_upgrade"		"magazine_stripper_clips"
-				//"weapon_upgrade"		"barrel_greased_bolt"	
-				//"weapon_upgrade"		"default_bayonet"
-				//"weapon_upgrade"		"magazine_extended_c96"
+				"weapon"				"weapon_sw1917"
+				"weapon"				"weapon_smoke"			
+				"weapon"				"weapon_tnt"
+				"weapon_upgrade"		"magazine_clips_sw1917"
+				"weapon"				"weapon_webley"
+				"weapon_upgrade"		"magazine_speedloader_webley"
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
-					"weapon_sprengbuchse"	"1"
-					"weapon_k98"			"25"
-					"weapon_k98"			"25"
-					"weapon_mp40"			"25"
-					"weapon_p38" 			"4"
-					"weapon_ppk" 			"4"
-					"weapon_smoke" 			"2"
-					"weapon_splintering"	"25"
-					"weapon_panzerfaust"	"25"
-					"weapon_panzerschreck"	"25"
-					"weapon_flamethrower_eintoss46_german" "25"
+					"weapon_sw1917"				"2"	
+					"weapon_tnt"				"1"
+					"weapon_smoke"				"2"
+					"weapon_webley"				"4"
 				}
-
 				"weapon_upgrade"
 				{
-					"default_sling"				"1"
 					"magazine_stripper_clips"	"1"
-					"default_bayonet"			"2"
-					"magazine_extended_c96"		"3"
-					"barrel_greased_bolt"		"2"
+					"magazine_clips_sw1917" "1"
+					"magazine_speedloader_webley" "1"
 				}
-				
 				"gear"
 				{
 					"german_light_kit"		"2"

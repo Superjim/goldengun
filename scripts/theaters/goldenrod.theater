@@ -32,12 +32,7 @@
 								"max_threshold" "20"
 							}
 
-							"template_german_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_german_assault"	"-1"
 							
 							"template_german_support"
 							{
@@ -99,12 +94,7 @@
 								"max_threshold" "20"
 							}
 
-							"template_german_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_german_assault"	"-1"
 							
 							"template_german_support"
 							{
@@ -169,12 +159,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_american_assault"	"-1"
 							
 							"template_american_support"
 							{
@@ -236,12 +221,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_american_assault"	"-1"
 							
 							"template_american_support"
 							{
@@ -306,12 +286,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_british_assault"	"-1"
 							
 							"template_british_support"
 							{
@@ -373,12 +348,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_assault"
-							{
-								"min"			"0"
-								"max"			"0"
-								"max_threshold" "20"
-							}
+							"template_british_assault"	"-1"
 							
 							"template_british_support"
 							{
