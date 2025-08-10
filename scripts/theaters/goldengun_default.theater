@@ -1,8 +1,5 @@
 "#base" "default_player.theater"
 "#base" "default_gear.theater"
-"#base" "goldengun_weapon_american.theater"
-"#base" "goldengun_weapon_german.theater"
-"#base" "goldengun_weapon_commonwealth.theater"
 "#base" "default_weapon_upgrades.theater"
 "#base"	"default_firesupport.theater"
 "#base"	"default_unlocks_americans.theater"
@@ -203,7 +200,8 @@
 					"weapon_m1paratrooper"	"4"
 					"weapon_thompson_m1a1"	"5"
 					"weapon_m1911"			"2"
-					"weapon_sw1917"			"25"					
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"						
 					"weapon_smoke" 			"1"
 					"weapon_mk2" 			"3"
 					"weapon_welrod"			"4"
@@ -268,8 +266,8 @@
 					"weapon_sten_mk5"			"4"
 					"weapon_owen"				"4"
 					"weapon_thompson_m1928a1"	"6"
-					"weapon_welrod"				"1"
-					"weapon_webley"				"2"
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 					"weapon_browninghp"			"3"
 					"weapon_no79" 				"1"
 					"weapon_no36" 				"3"
@@ -345,6 +343,8 @@
 					"weapon_stielhandgranate" 		"3"
 					"weapon_splintering" 			"12"
 					"weapon_welrod"					"4"
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 				}
 				
 				"weapon_upgrade"
@@ -898,7 +898,8 @@
 					"weapon_ppk" "4"
 					"weapon_smoke"			"1"
 					"weapon_mk2" "2"
-					"weapon_sw1917"					"25"	
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 				}
 
 				"weapon_upgrade"
@@ -1041,7 +1042,8 @@
 					"weapon_c96"	"4"
 					"weapon_smoke"			"1"
 					"weapon_splintering" "3"
-					"weapon_sw1917"					"25"	
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 				}
 
 				"weapon_upgrade"
@@ -1754,7 +1756,8 @@
 					"weapon_browninghp"				"2"	
 					"weapon_tnt"				"2"
 					"weapon_smoke"				"2"
-					"weapon_webley"				"4"
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 				}
 				"weapon_upgrade"
 				{
@@ -1823,6 +1826,8 @@
 					"weapon_c96"	"2"
 					"weapon_tnt"				"2"
 					"weapon_smoke"				"2"
+					"weapon_webley"				"25"
+					"weapon_sw1917"			"25"	
 				}
 				"weapon_upgrade"
 				{
