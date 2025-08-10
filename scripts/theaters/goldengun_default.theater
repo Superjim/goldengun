@@ -886,20 +886,14 @@
 			"allowed_items"
 			{
 				"weapon" "weapon_m1911"
-				"weapon" "weapon_luger"
-				"weapon" "weapon_browninghp"
-				"weapon" "weapon_ppk"
 				"weapon" "weapon_smoke"	
 				"weapon"				"weapon_no77"
-
-
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_m1911" "4"
-					"weapon_luger" "4"
 					"weapon_browninghp" "4"
 					"weapon_ppk" "4"
 					"weapon_smoke"			"1"
@@ -959,21 +953,15 @@
 			}
 			"allowed_items"
 			{
-				"weapon" "weapon_m1911"
-				"weapon" "weapon_luger"
 				"weapon" "weapon_browninghp"
-				"weapon" "weapon_ppk"
 				"weapon" "weapon_smoke"	
 				"weapon"				"weapon_no77"
-
-
 			}
 			"cost_modifiers"
 			{
 				"weapon"
 				{
 					"weapon_m1911" "4"
-					"weapon_luger" "4"
 					"weapon_browninghp" "4"
 					"weapon_ppk" "4"
 					"weapon_smoke"			"1"
@@ -1034,10 +1022,10 @@
 			}
 			"allowed_items"
 			{
-				"weapon" "weapon_m1911"
 				"weapon" "weapon_luger"
-				"weapon" "weapon_browninghp"
 				"weapon" "weapon_ppk"
+				"weapon" "weapon_p38"
+				"weapon" "weapon_c96"
 				"weapon" "weapon_smoke"	
 				"weapon"				"weapon_no77"
 
@@ -1047,10 +1035,10 @@
 			{
 				"weapon"
 				{
-					"weapon_m1911" "4"
-					"weapon_luger" "4"
-					"weapon_browninghp" "4"
-					"weapon_ppk" "4"
+					"weapon_luger"	"4"
+					"weapon_ppk"	"4"
+					"weapon_p38"	"4"
+					"weapon_c96"	"4"
 					"weapon_smoke"			"1"
 					"weapon_no77" "4"
 					"weapon_sw1917"					"25"	
@@ -1558,13 +1546,13 @@
 
 			"player_settings_mods"
 			{
-				"focus"
+				"speed"
 				{
-					"FocusTimeStamina"
-					{
-						"0"					"3.0"
-						"100"				"7.0"
-					}
+					"frac_side_move"			"0.75"
+					"frac_side_step"			"0.75"
+					"speed_crouch_run"			"120"
+					"speed_run"					"200"
+					"speed_sprint"				"400"
 				}
 			}
 		}
@@ -1633,13 +1621,13 @@
 
 			"player_settings_mods"
 			{
-				"focus"
+				"speed"
 				{
-					"FocusTimeStamina"
-					{
-						"0"					"3.0"
-						"100"				"7.0"
-					}
+					"frac_side_move"			"0.75"
+					"frac_side_step"			"0.75"
+					"speed_crouch_run"			"120"
+					"speed_run"					"200"
+					"speed_sprint"				"400"
 				}
 			}
 		}
@@ -1709,13 +1697,13 @@
 
 			"player_settings_mods"
 			{
-				"focus"
+				"speed"
 				{
-					"FocusTimeStamina"
-					{
-						"0"					"3.0"
-						"100"				"7.0"
-					}
+					"frac_side_move"			"0.75"
+					"frac_side_step"			"0.75"
+					"speed_crouch_run"			"120"
+					"speed_run"					"200"
+					"speed_sprint"				"400"
 				}
 			}
 		}
@@ -1803,7 +1791,7 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_webley"
+				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
 				"gear"					"commonwealth_light_kit"
@@ -1815,6 +1803,7 @@
 				"weapon"				"weapon_tnt"
 				"weapon_upgrade"		"magazine_clips_sw1917"
 			}
+
 			"cost_modifiers"
 			{
 				"weapon"
@@ -1869,7 +1858,7 @@
 				"weapon"				"weapon_sw1917"
 				"weapon"				"weapon_tnt"
 				"weapon"				"weapon_smoke"
-				"gear"					"german_light_kit"
+				"gear"					"commonwealth_light_kit"
 			}
 			"allowed_items"
 			{
@@ -1878,6 +1867,7 @@
 				"weapon"				"weapon_tnt"
 				"weapon_upgrade"		"magazine_clips_sw1917"
 			}
+
 			"cost_modifiers"
 			{
 				"weapon"
