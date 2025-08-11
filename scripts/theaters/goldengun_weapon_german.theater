@@ -1,7 +1,7 @@
 "#base" "goldenrod_weapon.theater"
 "#base" "goldenrod_explosives.theater"
 "#base" "goldenrod_common_ammo.theater"
-"#base" "default_ammo.theater"
+"#base" "goldenrod_ammo.theater"
 
 "theater"
 {
