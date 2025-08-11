@@ -1658,7 +1658,7 @@
 		
 		"template_american_engineer"
 		{
-			"print_name"				"BIG BANG"
+			"print_name"				"THUMP DADDY"
 			"print_attribute"			"Size DOES matter"
 			"print_description"			"Keep that revolver handy for when the dust clears"
 			"response_rules_key"		"american01"
@@ -1721,7 +1721,7 @@
 		{
 			"print_name"				"BIG BANG"
 			"print_attribute"			"Size DOES matter"
-			"print_description"			"Keep that revolver handy for when the dust clears"
+			"print_description"			"Makes things go away the loud way"
 			"icon"						"engineer"
 			
 			"models"
@@ -1782,9 +1782,9 @@
 		
 		"template_german_engineer"
 		{
-			"print_name"				"BIG BANG"
+			"print_name"				"RIESENKNALL"
 			"print_attribute"			"Size DOES matter"
-			"print_description"			"Keep that revolver handy for when the dust clears"
+			"print_description"			"Makes things go away the loud way"
 			"response_rules_key"		"american01"
 			"icon"						"engineer"
 			
@@ -1802,17 +1802,17 @@
 			"buy_order"
 			{
 				"weapon"				"weapon_ppk"
-				"weapon"				"weapon_luger"
-				"weapon"				"weapon_c96"
-				"weapon"				"weapon_p38"
 				"weapon"				"weapon_tnt"
-				"weapon"				"weapon_smoke"
-				"gear"					"commonwealth_light_kit"
+				"weapon"				"weapon_nebelhandgranate"
+				"gear"					"german_light_kit"
 			}
 			"allowed_items"
 			{
-				"weapon"				"weapon_sw1917"
-				"weapon"				"weapon_smoke"			
+				"weapon"				"weapon_ppk"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_c96"
+				"weapon"				"weapon_p38"
+				"weapon"				"weapon_nebelhandgranate"			
 				"weapon"				"weapon_tnt"
 			}
 
@@ -1825,14 +1825,13 @@
 					"weapon_p38"	"2"
 					"weapon_c96"	"2"
 					"weapon_tnt"				"2"
-					"weapon_smoke"				"2"
+					"weapon_nebelhandgranate"				"2"
 					"weapon_webley"				"25"
 					"weapon_sw1917"			"25"	
 				}
 				"weapon_upgrade"
 				{
 					"magazine_stripper_clips"	"1"
-					"magazine_clips_sw1917" "5"
 				}
 				"gear"
 				{
