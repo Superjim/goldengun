@@ -62,12 +62,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_german_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_german_sniper"	"-1"
 						}
 					}
 				}
@@ -129,12 +124,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_german_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_german_sniper"	"-1"
 						}
 					}
 				}
@@ -199,12 +189,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_american_sniper"	"-1"
 						}
 					}
 				}
@@ -266,12 +251,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_american_sniper"	"-1"
 						}
 					}
 				}
@@ -336,12 +316,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_british_sniper"	"-1"
 						}
 					}
 				}
@@ -403,12 +378,7 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_sniper"
-							{
-								"min"			"1"
-								"max"			"2"
-								"max_threshold" "20"
-							}
+							"template_british_sniper"	"-1"
 						}
 					}
 				}
