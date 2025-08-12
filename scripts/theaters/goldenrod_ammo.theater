@@ -266,6 +266,7 @@
 			}
 		}
 		
+		// probably 1917
 		"45acp_r"
 		{
 			"import"				"45acp"
@@ -273,9 +274,9 @@
 			
 			"Damage"
 			{
-				"1"						"76"
-				"100"					"76"
-				"5000"					"32"
+				"1"						"66" // default 76
+				"100"					"66" // default 76
+				"5000"					"32" // default 32
 			}
 			
 			"PenetrationPower"
@@ -709,9 +710,9 @@
 			
 			"Damage"
 			{
-				"1"						"70"
-				"500"					"70"
-				"2000"					"35"
+				"1"						"66" // default 76
+				"100"					"66" // default 76
+				"5000"					"32" // default 32
 			}
 			
 			"PenetrationPower"
@@ -724,17 +725,6 @@
 			{
 				"0"						"1.0"
 				"800"					"0.25"
-			}
-			
-			"DamageHitgroups"
-			{
-				"HITGROUP_HEAD"				"2.00"
-				"HITGROUP_CHEST"			"1.50"
-				"HITGROUP_STOMACH"			"1.25"
-				"HITGROUP_LEFTARM"			"1.00"
-				"HITGROUP_RIGHTARM"			"1.00"
-				"HITGROUP_LEFTLEG"			"1.00"
-				"HITGROUP_RIGHTLEG"			"1.00"
 			}
 		}
 		// browninghp
@@ -794,8 +784,15 @@
 		"9x19mm_c96_clip"
 		{
 			"import"					"9x19"
-			"magsize"					"10"
+			"magsize"					"6"
 			"brass_model"				"models/weapons/shells/9x19.mdl"	
+			
+			"Damage"
+			{
+				"1"						"66" // default 76
+				"100"					"66" // default 76
+				"5000"					"32" // default 32
+			}
 			
 			"PenetrationPower"
 			{

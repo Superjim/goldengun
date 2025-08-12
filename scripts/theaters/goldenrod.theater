@@ -20,8 +20,8 @@
 							
 							"template_german_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -53,8 +53,13 @@
 								"max_threshold" "20"
 							}
 							
-							"template_german_engineer" "-1"
-							
+							"template_german_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
+
 							"template_german_machinegunner"
 							{
 								"min"			"0"
@@ -82,8 +87,8 @@
 							
 							"template_german_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -115,8 +120,13 @@
 								"max_threshold" "20"
 							}
 							
-							"template_german_engineer" "-1"
-							
+							"template_german_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
+
 							"template_german_machinegunner"
 							{
 								"min"			"0"
@@ -147,8 +157,8 @@
 							
 							"template_american_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -180,7 +190,12 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_engineer" "-1"
+							"template_american_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
 							
 							"template_american_machinegunner"
 							{
@@ -209,8 +224,8 @@
 
 							"template_american_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -242,7 +257,12 @@
 								"max_threshold" "20"
 							}
 							
-							"template_american_engineer" "-1"
+							"template_american_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
 							
 							"template_american_machinegunner"
 							{
@@ -274,8 +294,8 @@
 							
 							"template_british_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -307,7 +327,12 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_engineer" "-1"
+							"template_british_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
 							
 							"template_british_machinegunner"
 							{
@@ -336,8 +361,8 @@
 							
 							"template_british_communications"
 							{
-								"min"			"0"
-								"max"			"0"
+								"min"			"1"
+								"max"			"1"
 								"max_threshold" "20"
 							}
 							
@@ -369,7 +394,12 @@
 								"max_threshold" "20"
 							}
 							
-							"template_british_engineer" "-1"
+							"template_british_engineer"
+							{
+								"min"			"1"
+								"max"			"2"
+								"max_threshold" "10"
+							}
 							
 							"template_british_machinegunner"
 							{

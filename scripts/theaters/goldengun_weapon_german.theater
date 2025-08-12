@@ -288,7 +288,7 @@
 			"print_desc"				"#weapon_c96_desc"
 			"view_model"				"models/weapons/v_c96.mdl"
 			"world_model"				"models/weapons/w_c96.mdl"
-			"rounds_per_minute"			"700"
+			"rounds_per_minute"			"80"
 			"weapon_slot"				"secondary"
 			"act_table"					"pistol"
 			"weapon_abilities"			"ironsight"			
@@ -375,8 +375,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"9x19mm_c96_clip"
-				"clip_max"				"10"
-				"clip_max_rounds"		"10"
+				"clip_max"				"6"
+				"clip_max_rounds"		"6"
 				"clip_default"			"2"
 			}
 			
