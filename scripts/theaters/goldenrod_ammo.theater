@@ -731,7 +731,7 @@
 		"9x19_hp"
 		{
 			"import"					"9x19"
-			"magsize"					"13"
+			"magsize"					"7"
 			"brass_model"				"models/weapons/shells/9x19.mdl"
 			
 			"Damage"

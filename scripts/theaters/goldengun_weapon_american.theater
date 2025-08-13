@@ -366,7 +366,7 @@
 				"ammo_type"				"45acp_pistol"
 				"clip_max"				"10"
 				"clip_max_rounds"		"7"
-				"clip_default"			"2"
+				"clip_default"			"3"
 			}
 			
 			"attachments"
