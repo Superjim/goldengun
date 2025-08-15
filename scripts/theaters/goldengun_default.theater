@@ -385,6 +385,7 @@
 			{
 				"weapon"				"weapon_m1911"
 				"weapon"				"weapon_smoke"
+				"weapon"					"weapon_binoculars_american"
 				"gear"					"american_light_kit"
 				"gear"					"gear_radio"
 			}
@@ -402,7 +403,7 @@
 				"weapon"
 				{
 					"weapon_m1911" "4"	
-					"weapon_smoke"			"1"
+					"weapon_smoke"			"2"
 					"weapon_webley"				"25"
 					"weapon_sw1917"			"25"	
 					"weapon_binoculars_american"	"1"
@@ -417,7 +418,7 @@
 				{
 					"american_light_kit"	"2"
 					"american_heavy_kit"	"5"
-					"gear_radio"			"0"
+					"gear_radio"			"1"
 				}
 			}
 		}
@@ -446,13 +447,14 @@
 				"weapon"				"weapon_browninghp"
 				"weapon"				"weapon_no79"
 				"gear"					"commonwealth_light_kit"
+				"gear"					"weapon_binoculars_british"
 				"gear"					"gear_radio_commonwealth"
 			}
 			"locked_gear_slots"			"backpack"
 			"allowed_items"
 			{
 				"weapon"				"weapon_browninghp"
-				"weapon" "weapon_smoke"
+				"weapon" 				"weapon_no79"
 				"weapon"				"weapon_binoculars_british"
 				"gear"					"gear_radio_commonwealth"
 			}
@@ -461,10 +463,10 @@
 				"weapon"
 				{
 					"weapon_browninghp" "4"	
-					"weapon_smoke"			"1"
+					"weapon_no79"			"2"
 					"weapon_webley"				"25"
 					"weapon_sw1917"			"25"	
-					"weapon_binoculars_american"	"1"
+					"weapon_binoculars_british"	"1"
 				}
 
 				"weapon_upgrade"
@@ -476,7 +478,7 @@
 				{
 					"commonwealth_light_kit"	"2"
 					"commonwealth_heavy_kit"	"5"
-					"gear_radio_commonwealth"	"0"
+					"gear_radio_commonwealth"	"1"
 				}
 			}
 		}
@@ -502,11 +504,10 @@
 			
 			"buy_order"
 			{
-				"weapon"				"weapon_k98bayonet"
-				"weapon"				"weapon_g43"
-				"weapon"				"weapon_nebelhandgranate"
+				"weapon"				"weapon_ppk"
 				"weapon"				"weapon_nebelhandgranate"
 				"gear"					"german_light_kit"
+				"weapon"				"weapon_binoculars_german"
 				"gear"					"gear_radio_german"
 			}
 			"locked_gear_slots"			"backpack"
@@ -522,9 +523,10 @@
 				"weapon"
 				{
 					"weapon_ppk"	"4"
-					"weapon_nebelhandgranate"			"1"
+					"weapon_nebelhandgranate"			"2"
 					"weapon_webley"				"25"
 					"weapon_sw1917"			"25"	
+					"weapon_binoculars_german"			"1"	
 				}
 				
 				"weapon_upgrade"
@@ -535,7 +537,7 @@
 				{
 					"german_light_kit"	"2"
 					"german_heavy_kit"	"5"
-					"gear_radio_german"	"0"
+					"gear_radio_german"	"1"
 				}
 			}
 		}
@@ -892,13 +894,13 @@
 			{
 				"weapon" "weapon_browninghp"
 				"weapon" "weapon_no77"
-				"weapon" "weapon_smoke"
+				"weapon" "weapon_no79"
 				"gear"					"commonwealth_light_kit"
 			}
 			"allowed_items"
 			{
 				"weapon" "weapon_browninghp"
-				"weapon" "weapon_smoke"	
+				"weapon" "weapon_no79"	
 				"weapon"				"weapon_no77"
 			}
 			"cost_modifiers"
@@ -908,7 +910,7 @@
 					"weapon_m1911" "4"
 					"weapon_browninghp" "4"
 					"weapon_ppk" "4"
-					"weapon_smoke"			"1"
+					"weapon_no79"			"1"
 					"weapon_no77" "4"
 					"weapon_sw1917"					"25"	
 				}
